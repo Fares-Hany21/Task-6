@@ -17,7 +17,7 @@ class Testplus(unittest.TestCase):
         self.assertEqual(result, 5)
         
     def test_add_float_numbers(self):
-      result = plus(2.5, 3.7)
+        result = plus(2.5, 3.7)
         self.assertEqual(result, 6.2)
 
 if _name_ == '_main_':
