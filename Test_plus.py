@@ -1,8 +1,6 @@
 import unittest
 from plus import *
 
-def plus(x, y):
-    return (x + y)
 
 class Testplus(unittest.TestCase):
     def test_plus_positive_numbers(self):
